@@ -1,0 +1,256 @@
+﻿<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <title>Oil Pipeline Robot Crawler</title>
+
+
+    <script>
+
+      function w3_open() {
+
+        document.getElementById("main").style.marginLeft = "25%";
+
+        document.getElementById("mySidebar").style.width = "25%";
+
+        document.getElementById("mySidebar").style.display = "block";
+
+        document.getElementById("openNav").style.display = 'none';
+
+      }
+
+
+      function w3_close() {
+
+        document.getElementById("main").style.marginLeft = "0%";
+
+        document.getElementById("mySidebar").style.display = "none";
+
+        document.getElementById("openNav").style.display = "inline-block";
+
+      }
+
+    </script>
+
+
+    <style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: black;
+		}
+		li 
+			li a {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			tet-decoration: none;	
+		}
+			li a:hover {
+			background-color: pink;
+			color: purple;
+		}
+		
+		.sticky-container{
+		    padding:0px;
+		    margin:0px;
+		    position:fixed;
+		    right:-130px;
+		    top:230px;
+		    width:210px;
+		    z-index: 1100;
+		}
+		.sticky li{
+		    list-style-type:none;
+		    background-color:#fff;
+		    color:#efefef;
+		    height:43px;
+		    padding:0px;
+		    margin:0px 0px 1px 0px;
+		    -webkit-transition:all 0.25s ease-in-out;
+		    -moz-transition:all 0.25s ease-in-out;
+		    -o-transition:all 0.25s ease-in-out;
+		    transition:all 0.25s ease-in-out;
+		    cursor:pointer;
+		}
+		.sticky li:hover{
+		    margin-left:-115px;
+		}
+		.sticky li img{
+		    float:left;
+		    margin:5px 4px;
+		    margin-right:5px;
+		}
+		.sticky li p{
+		    padding-top:5px;
+		    margin:0px;
+		    line-height:16px;
+		    font-size:11px;
+		}
+		.sticky li p a{
+		    text-decoration:none;
+		    color:#2C3539;
+		}
+		.sticky li p a:hover{
+		    text-decoration:underline;
+		}
+     </style>
+</head>
+
+
+<body>
+
+  <!-- Sidebar -->
+
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+
+    <button class="w3-bar-item w3-button w3-large"
+
+    onclick="w3_close()">Close &times;</button>
+
+    <a href="sites.html" class="w3-bar-item w3-button">Sites</a>
+
+    <a href="distancecalculator.html" class="w3-bar-item w3-button">Distance Calculator</a>
+
+    <a href="markers.html" class="w3-bar-item w3-button">MAP showing Markers</a>
+ 
+  </div>
+
+
+  <div id="main">
+
+  <div class="w3-red">
+
+    <button id="openNav" class="w3-button w3-xlarge" onclick="w3_open()">&#9776;</button>
+
+    <ul>
+	<li> ace enterprises </li>
+	<li> <a href="homepage1.html">about </li>
+	<li> <a href="#"> contact </li>
+	<li> <a href="form.html"> sign up for newsletter </li>
+	<div class="w3-container">
+
+       <form action="http://www.google.com/search" class="navbar-form navbar-left" method="get" name="searchform" target="blank">
+
+
+        <div class="input-group" align="right">
+
+          <input name="sitesearch" type="hidden" value="">
+
+          <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required" type="text">
+
+        </div>
+
+
+          <div align="right">
+
+        	<button class="button" type="submit">Search</button>
+
+          </div>
+	</form>
+
+  
+	<center><h1>Oil pipeline Website</h1></center>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+   <!-- floating social media icons -->
+
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="http://www.highlandradio.com/wp-content/uploads/2015/04/facebook.jpeg" width="32" height="32">
+            <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0zAyS3mfEhQ5nz0pW2L6xEs_4YGWkuEKbgC68nvyS-YIwfzhxA" width="32" height="32">
+            <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br>Twitter</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYb_sScdDoMmb7DLqck7SHBKLNxdInjZ7A4Zv5HdJTzvRLGxo" width="32" height="32">
+0            <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br>Google+</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4i2AYYgCY_8x-5IyXmXk_9-tmj74Da01PlNjL0Zf7LL3c6nIN" width="32" height="32">
+            <p><a href="https://www.linkedin.com/company/codexworld" target="_blank">Follow Us on<br>LinkedIn</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIvrkUpk4Dvbm-oveVV5alDAlP9XGTTBOJdCmbvPG45JqB9CTuw" width="32" height="32">
+            <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUcIakU4hHt-IABh-9DdVGLU5dKhUiBf83SzTbgKVQk6Tj765uAw" width="32" height="32">
+            <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br>Pinterest</a></p>
+        </li>
+    </ul>
+</div>
+
+
+
+
+  <div id="content" class="w3-container" >
+
+
+    <div id="main">
+
+    	<center><h2>Robot Crawler</h2></center>
+
+    	<font size="4">
+	<p>The Large Variable Geometry Crawler (VGC) provides gas utilities with live,
+	 high-resolution video inspection of large diameter steel or cast iron gas mains
+	 ranging in diameter from 18″ up to 48″. Using the Large VGC, utilities can assess
+	 the conditions of their mains as well as locate cracks, damaged pipe, unknown branches,
+	 service tees, valves, fittings and water intrusion or debris. Pipelines can be inspected
+	 without the hassle and costs of taking a main out of service.
+	</p>
+	</font>
+	
+
+      <font size="4">
+
+      <p>Robotics is one of the fastest growing engineering fields of today.
+	 Robots are designed to remove the human factor from labor intensive or
+	 dangerous work and also to act in inaccessible environment. The use of 
+	robots is more common today than ever before and it is no longer exclusively
+	 used by the heavy production industries. The inspection of pipes may be 
+	relevant for improving security and efficiency in industrial plants. 
+	These specific operations as inspection, maintenance, cleaning etc. 
+	are expensive, thus the application of the robots appears to be one of the 
+	most attractive solutions. The pipelines are the major tools for the 
+	transportation of drinkable water, effluent water, fuel oils and gas. 
+	A lot of troubles caused by piping networks aging, corrosion, cracks, 
+	and mechanical damages are possible.
+	</p>
+	</font>
+
+    </div>
+
+  </div>
+
+
+
+   <div id="footer" style="text-align:right;padding-right:5%;">
+	 ACE Computer Enterprises © 
+   </div>
+
+  </div>
+
+</body>
+
+</html>
