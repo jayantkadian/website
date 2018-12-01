@@ -1,0 +1,291 @@
+﻿<html>
+
+  <head>
+
+    <title>Oil Pipeline Robot Crawler</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">  
+
+
+    <script>
+
+      function w3_open() {
+
+        document.getElementById("main").style.marginLeft = "25%";
+
+        document.getElementById("mySidebar").style.width = "25%";
+
+        document.getElementById("mySidebar").style.display = "block";
+
+        document.getElementById("openNav").style.display = 'none';
+
+      }
+
+      function w3_close() {
+
+        document.getElementById("main").style.marginLeft = "0%";
+
+        document.getElementById("mySidebar").style.display = "none";
+
+        document.getElementById("openNav").style.display = "inline-block";
+
+      }
+    </script>
+
+
+    <style>
+		.sticky-container{
+		    padding:0px;
+		    margin:0px;
+		    position:fixed;
+		    right:-130px;
+		    top:230px;
+		    width:210px;
+		    z-index: 1100;
+		}
+		.sticky li{
+		    list-style-type:none;
+		    background-color:#fff;
+		    color:#efefef;
+		    height:43px;
+		    padding:0px;
+		    margin:0px 0px 1px 0px;
+		    -webkit-transition:all 0.25s ease-in-out;
+		    -moz-transition:all 0.25s ease-in-out;
+		    -o-transition:all 0.25s ease-in-out;
+		    transition:all 0.25s ease-in-out;
+		    cursor:pointer;
+		}
+		.sticky li:hover{
+		    margin-left:-115px;
+		}
+		.sticky li img{
+		    float:left;
+		    margin:5px 4px;
+		    margin-right:5px;
+		}
+		.sticky li p{
+		    padding-top:5px;
+		    margin:0px;
+		    line-height:16px;
+		    font-size:11px;
+		}
+		.sticky li p a{
+		    text-decoration:none;
+		    color:#2C3539;
+		}
+		.sticky li p a:hover{
+		    text-decoration:underline;
+		}
+     </style>
+  </head>
+
+
+
+<body>
+
+   <!-- Sidebar -->
+
+
+   <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+
+    <button class="w3-bar-item w3-button w3-large"
+
+    onclick="w3_close()">Close &times;</button>
+
+    <a href="homepage1.html" class="w3-bar-item w3-button">Home</a>
+
+    <a href="distancecalculator.html" class="w3-bar-item w3-button">Distance Calculator</a>
+
+    <a href="markers.html" class="w3-bar-item w3-button">MAP showing Markers</a>
+
+  </div>
+
+
+  <div id="main">
+
+
+  <div class="w3-red">
+
+    <button id="openNav" class="w3-button w3-red w3-xlarge"
+     onclick="w3_open()">&#9776;</button>
+
+    <div class="w3-container">
+
+       <form action="http://www.google.com/search" class="navbar-form navbar-left" method="get" name="searchform" target="blank">
+
+        <div class="input-group" align="right">
+ 
+         <input name="sitesearch" type="hidden" value="">
+
+          <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required" type="text">
+
+        </div>
+
+          <div align="right">
+
+            <button class="button" type="submit">Search</button>
+
+
+          </div>
+       </form>
+
+      <a href="homepage1.html#" style="text-decoration: none !important;">
+
+      <i class="material-icons w3-xxxlarge">home</i>
+
+      </a>
+
+      <center>
+	<h1>Oil pipeline Website</h1>
+      </center>
+
+    </div>
+
+  </div>
+
+<!-- floating social media icons -->
+
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="http://www.highlandradio.com/wp-content/uploads/2015/04/facebook.jpeg" width="32" height="32">
+            <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0zAyS3mfEhQ5nz0pW2L6xEs_4YGWkuEKbgC68nvyS-YIwfzhxA" width="32" height="32">
+            <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br>Twitter</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYb_sScdDoMmb7DLqck7SHBKLNxdInjZ7A4Zv5HdJTzvRLGxo" width="32" height="32">
+0            <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br>Google+</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4i2AYYgCY_8x-5IyXmXk_9-tmj74Da01PlNjL0Zf7LL3c6nIN" width="32" height="32">
+            <p><a href="https://www.linkedin.com/company/codexworld" target="_blank">Follow Us on<br>LinkedIn</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIvrkUpk4Dvbm-oveVV5alDAlP9XGTTBOJdCmbvPG45JqB9CTuw" width="32" height="32">
+            <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUcIakU4hHt-IABh-9DdVGLU5dKhUiBf83SzTbgKVQk6Tj765uAw" width="32" height="32">
+            <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br>Pinterest</a></p>
+        </li>
+    </ul>
+</div>
+
+
+
+   <!-- content -->
+
+
+
+  
+  <div id="content" class="w3-container" >
+
+    
+    <div id="main">
+
+      <h1>Oil Pipelines Hyderabad</h1>
+
+      <p> Indian Oil Corporation Ltd. operates a network of about 12,848 km
+	 long crude oil, petroleum product and gas pipelines with a throughput
+	 capacity of 93.7 million metric tonnes per annum of oil and 9.5 million
+	 metric standard cubic meter per day of gas. Cross-country pipelines are
+	 globally recognised as the safest, cost-effective, energy-efficient and 
+	environment-friendly mode for transportation of crude oil and petroleum 
+	products.
+      </p>
+
+
+
+      <h1>Vijaywada</h1>
+
+      <p> HPCL's 570-km long product pipeline from Visakhapatnam to Secunderabad
+	 has become operational since the middle of March. The pipeline will carry
+	 petrol, diesel, kerosene and naphtha from HPCL's Vizag refinery to different
+	 parts of Andhra Pradesh. In fact, the 350-km long stretch from Visakhapatnam
+	 to Vijayawada was commissioned in May 1998 with a designed capacity of 4 million
+	 tonnes. The extension of the pipeline up to Secunderabad involved an additional
+	 223 km of pipeline with an intermediate tap-off-cum-booster station at Suryapet
+	 and the final receiving station at Ghatkesar on the outskirts of Hyderabad. 
+	Between Visakhapatnam and Vijayawada, there is a terminal at Rajamundry. 
+	<br>
+
+The movement of throughput between Visakhapatnam and Vijayawada has 
+	touched 3.20 million tonnes in the last fiscal. The movement through the entire 
+	stretch of Visakhapatnam-Secunderabad pipeline is expected to go up to 5.50 million
+	 tonnes by 2007-08 
+	<br>
+
+Work on the GAIL's pipeline alongside the HPCL products pipeline is on full
+	 swing. After the completion of the project, distribution of LPG from HPCL's Vizag 
+	refinery in the state will improve significantly. HPCL's LPG market share in the state
+	 is about 46 per cent at present.
+     </p>
+
+
+
+     <h1>Vizag</h1>
+
+      <p> The Rs 520-crore pipeline project of Hindustan Petroleum Corporation Ltd (HPCL)
+	 between Visakhapatnam and Vijayawada for carrying petroleum products is ready for
+	 commissioning, according to chairman and managing director H L Zutshi.</p>
+	
+
+<p>The pipeline would be extended up to Hyderabad, and would be completed in thirty
+	 months. The feasibility report for the project would be ready in another three months.
+	
+He also assured the chief minister that the feasibility report for laying a pipeline between
+	 Krishnapatnam and Tirupati would be ready in six months.</p>
+
+
+	<p>Petroleum residues, the fuel for the power project, is to be provided from HPCLs
+	 Visakhapatnam refinery.</p>
+
+
+	<p>The chief minister has promised to use his offices for securing all clearances for 
+	the project at various levels including the central government, according to an official 
+	release issued here.</p>
+
+
+	<p> HPCL is setting up a 2.5 million tonne liquefied natural gas (LNG) terminal at Visakhapatnam
+	 at an estimated cost of Rs 1800 crore. Two such terminals at Kakinada and Krishnapatnam would also
+	 be set up, he added.</p>
+ 
+<p>It is said that LNG terminal co-ordination committee to achieve the 
+	ultimate objective of connecting the three terminals with an LNG pipeline for maximum utilisation.
+	</p>
+
+    </div>
+
+  </div>
+
+  
+<center>
+
+    <div id="map" style="width:90%;height:500px;background:white;">
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAN8X6He0DCJgZFdmYKmcnSktgE1XhWJo&callback=myMap"></script>
+
+    </div>
+
+  </center>
+
+
+  <div id="footer" style="text-align:right;padding-right:5%;">
+ ACE Computer Enterprises ©
+</div>
+
+  </div>
+
+  </body>
+
+</html>
